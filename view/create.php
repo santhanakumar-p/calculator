@@ -12,7 +12,7 @@
     <a href="../view/index.php">Back</a>
     <br><br>
     <div>
-        <form action="" method="POST">
+        <form action="../core/store.php" method="POST">
             <div>
                 <label for="rollNo">Roll No</label><br>
                 <input type="number" name="roll_no" id="rollNo"><br><br>

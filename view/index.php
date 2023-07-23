@@ -45,7 +45,7 @@
                     echo '<td>' . $row['science'] . '</td>';
                     echo '<td>' . $row['social_science'] . '</td>';
                     echo '<td>' . $row['created_at'] . '</td>';
-                    echo '<td><a href = "core/edit.php?id' . $row['id'] . '">Edit</a> | <a href = "core/destroy.php?id=' . $row['id'] . '">Delete</a></td>';
+                    echo '<td><a href = "../core/edit.php?id=' . $row['id'] . '">Edit</a> | <a href = "../core/destroy.php?id=' . $row['id'] . '">Delete</a></td>';
                 }
                 ?>
             </tbody>
